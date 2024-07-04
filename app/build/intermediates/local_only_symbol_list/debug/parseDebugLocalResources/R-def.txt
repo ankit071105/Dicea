@@ -1,0 +1,26 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable dice_1
+drawable dice_2
+drawable dice_3
+drawable dice_4
+drawable dice_5
+drawable dice_6
+drawable empty_dice
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id dice_image
+id main
+id result_text
+id roll_button
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string roll
+style Base.Theme.DiceRoller
+style Theme.DiceRoller
+xml backup_rules
+xml data_extraction_rules
