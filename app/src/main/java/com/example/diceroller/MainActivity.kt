@@ -12,6 +12,7 @@ import androidx.core.view.WindowInsetsCompat
 import kotlin.random.Random
 
 class MainActivity : AppCompatActivity() {
+   lateinit var dice: ImageView
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -22,6 +23,7 @@ class MainActivity : AppCompatActivity() {
             rollDice()
 
         }
+        dice =findViewById(R.id.dice_image)
         }
 
     private fun rollDice() {
@@ -36,7 +38,7 @@ class MainActivity : AppCompatActivity() {
          5 -> R.drawable.dice_5
         else ->  R.drawable.dice_6
      }
-        val dice: ImageView =findViewById(R.id.dice_image)
+
         dice.setImageResource(Ress)
     }
 
